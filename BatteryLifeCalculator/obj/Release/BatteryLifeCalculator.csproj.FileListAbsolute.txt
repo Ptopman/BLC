@@ -1,0 +1,20 @@
+C:\Users\Quantum\Documents\BatteryLifeCalculator\BatteryLifeCalculator\bin\Release\BatteryLifeCalculator.exe.config
+C:\Users\Quantum\Documents\BatteryLifeCalculator\BatteryLifeCalculator\bin\Release\BatteryLifeCalculator.exe
+C:\Users\Quantum\Documents\BatteryLifeCalculator\BatteryLifeCalculator\bin\Release\BatteryLifeCalculator.pdb
+C:\Users\Quantum\Documents\BatteryLifeCalculator\BatteryLifeCalculator\obj\Release\BatteryLifeCalculator.Form1.resources
+C:\Users\Quantum\Documents\BatteryLifeCalculator\BatteryLifeCalculator\obj\Release\BatteryLifeCalculator.Properties.Resources.resources
+C:\Users\Quantum\Documents\BatteryLifeCalculator\BatteryLifeCalculator\obj\Release\BatteryLifeCalculator.csproj.GenerateResource.Cache
+C:\Users\Quantum\Documents\BatteryLifeCalculator\BatteryLifeCalculator\obj\Release\BatteryLifeCalculator.exe
+C:\Users\Quantum\Documents\BatteryLifeCalculator\BatteryLifeCalculator\obj\Release\BatteryLifeCalculator.pdb
+C:\Users\Quantum\Documents\BatteryLifeCalculator\BatteryLifeCalculator\obj\Release\BatteryLifeCalculator.csprojResolveAssemblyReference.cache
+C:\Users\Quantum\Documents\BatteryLifeCalculator\BatteryLifeCalculator\obj\Release\BatteryLifeCalculator.csproj.CoreCompileInputs.cache
+C:\Users\Quantum 2.0\Documents\BatteryLifeCalculator\BatteryLifeCalculator\bin\Release\BatteryLifeCalculator.exe.config
+C:\Users\Quantum 2.0\Documents\BatteryLifeCalculator\BatteryLifeCalculator\bin\Release\BatteryLifeCalculator.exe
+C:\Users\Quantum 2.0\Documents\BatteryLifeCalculator\BatteryLifeCalculator\bin\Release\BatteryLifeCalculator.pdb
+C:\Users\Quantum 2.0\Documents\BatteryLifeCalculator\BatteryLifeCalculator\obj\Release\BatteryLifeCalculator.csprojResolveAssemblyReference.cache
+C:\Users\Quantum 2.0\Documents\BatteryLifeCalculator\BatteryLifeCalculator\obj\Release\BatteryLifeCalculator.Form1.resources
+C:\Users\Quantum 2.0\Documents\BatteryLifeCalculator\BatteryLifeCalculator\obj\Release\BatteryLifeCalculator.Properties.Resources.resources
+C:\Users\Quantum 2.0\Documents\BatteryLifeCalculator\BatteryLifeCalculator\obj\Release\BatteryLifeCalculator.csproj.GenerateResource.Cache
+C:\Users\Quantum 2.0\Documents\BatteryLifeCalculator\BatteryLifeCalculator\obj\Release\BatteryLifeCalculator.csproj.CoreCompileInputs.cache
+C:\Users\Quantum 2.0\Documents\BatteryLifeCalculator\BatteryLifeCalculator\obj\Release\BatteryLifeCalculator.exe
+C:\Users\Quantum 2.0\Documents\BatteryLifeCalculator\BatteryLifeCalculator\obj\Release\BatteryLifeCalculator.pdb
