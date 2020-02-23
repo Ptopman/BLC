@@ -18,3 +18,23 @@ C:\Users\Quantum 2.0\Documents\BatteryLifeCalculator\BatteryLifeCalculator\obj\R
 C:\Users\Quantum 2.0\Documents\BatteryLifeCalculator\BatteryLifeCalculator\obj\Release\BatteryLifeCalculator.csproj.CoreCompileInputs.cache
 C:\Users\Quantum 2.0\Documents\BatteryLifeCalculator\BatteryLifeCalculator\obj\Release\BatteryLifeCalculator.exe
 C:\Users\Quantum 2.0\Documents\BatteryLifeCalculator\BatteryLifeCalculator\obj\Release\BatteryLifeCalculator.pdb
+C:\Users\Abyss\Desktop\BatteryLifeCalculator\BatteryLifeCalculator\bin\Release\BatteryLifeCalculator.exe.config
+C:\Users\Abyss\Desktop\BatteryLifeCalculator\BatteryLifeCalculator\bin\Release\BatteryLifeCalculator.exe
+C:\Users\Abyss\Desktop\BatteryLifeCalculator\BatteryLifeCalculator\bin\Release\BatteryLifeCalculator.pdb
+C:\Users\Abyss\Desktop\BatteryLifeCalculator\BatteryLifeCalculator\obj\Release\BatteryLifeCalculator.csprojAssemblyReference.cache
+C:\Users\Abyss\Desktop\BatteryLifeCalculator\BatteryLifeCalculator\obj\Release\BatteryLifeCalculator.Form1.resources
+C:\Users\Abyss\Desktop\BatteryLifeCalculator\BatteryLifeCalculator\obj\Release\BatteryLifeCalculator.Properties.Resources.resources
+C:\Users\Abyss\Desktop\BatteryLifeCalculator\BatteryLifeCalculator\obj\Release\BatteryLifeCalculator.csproj.GenerateResource.cache
+C:\Users\Abyss\Desktop\BatteryLifeCalculator\BatteryLifeCalculator\obj\Release\BatteryLifeCalculator.csproj.CoreCompileInputs.cache
+C:\Users\Abyss\Desktop\BatteryLifeCalculator\BatteryLifeCalculator\obj\Release\BatteryLifeCalculator.exe
+C:\Users\Abyss\Desktop\BatteryLifeCalculator\BatteryLifeCalculator\obj\Release\BatteryLifeCalculator.pdb
+Z:\BatteryLifeCalculator\BatteryLifeCalculator\bin\Release\BatteryLifeCalculator.exe.config
+Z:\BatteryLifeCalculator\BatteryLifeCalculator\bin\Release\BatteryLifeCalculator.exe
+Z:\BatteryLifeCalculator\BatteryLifeCalculator\bin\Release\BatteryLifeCalculator.pdb
+Z:\BatteryLifeCalculator\BatteryLifeCalculator\obj\Release\BatteryLifeCalculator.csprojResolveAssemblyReference.cache
+Z:\BatteryLifeCalculator\BatteryLifeCalculator\obj\Release\BatteryLifeCalculator.Form1.resources
+Z:\BatteryLifeCalculator\BatteryLifeCalculator\obj\Release\BatteryLifeCalculator.Properties.Resources.resources
+Z:\BatteryLifeCalculator\BatteryLifeCalculator\obj\Release\BatteryLifeCalculator.csproj.GenerateResource.Cache
+Z:\BatteryLifeCalculator\BatteryLifeCalculator\obj\Release\BatteryLifeCalculator.csproj.CoreCompileInputs.cache
+Z:\BatteryLifeCalculator\BatteryLifeCalculator\obj\Release\BatteryLifeCalculator.exe
+Z:\BatteryLifeCalculator\BatteryLifeCalculator\obj\Release\BatteryLifeCalculator.pdb

@@ -24,6 +24,7 @@ namespace BatteryLifeCalculator
             CBBCUnit.SelectedIndex = 1;
             CBCUnit.SelectedIndex = 1;
             CBChangeLaw.SelectedIndex = 0;
+            CBPC.SelectedIndex = 0;
             NUDBatteryCap.Controls[0].Enabled = false;
             LBLUserCheckCap.Text = "Battery Capacity: NA";
             LBLUserCheckCurrent.Text = "Current: NA";
@@ -33,10 +34,11 @@ namespace BatteryLifeCalculator
             LBLDays.Text = "Days: NA";
             LBLMonths.Text = "Months: NA";
             LBLYears.Text = "Years: NA";
-            GBBLC.Left = (this.ClientSize.Width - GBBLC.Width) / 2;
+            //GBBLC.Left = (this.ClientSize.Width - GBBLC.Width) / 2;
             BTNOLSubmit.Left = (GBOhmsLaw.Width - BTNOLSubmit.Width) / 2;
             BTNSubmit.Left = (GBBLC.Width - BTNSubmit.Width) / 2;
-            GBOhmsLaw.Left = (this.ClientSize.Width - GBOhmsLaw.Width) / 2;
+            //GBOhmsLaw.Left = (this.ClientSize.Width - GBOhmsLaw.Width) / 2;
+            BTNPCSubmit.Left = (GBPC.Width - BTNPCSubmit.Width) / 2;
 
         }
 
@@ -176,26 +178,101 @@ namespace BatteryLifeCalculator
 
         private void BTNCCSubmit_Click(object sender, EventArgs e)
         {
+            //Initilizing Variables
             double sourceVoltage = 0;
             double sourceCurrent = 0;
             double outputVoltage = 0;
             double outputCurrent = 0;
             double watt = 0;
 
+            //Getting User Input
             sourceVoltage = double.Parse(NUDCCSourceVoltage.Value.ToString());
             outputVoltage = double.Parse(NUDCCOutputVoltage.Value.ToString());
             outputCurrent = double.Parse(NUDCCOutputCurrent.Value.ToString());
 
+            //Calculating wattage
             outputCurrent /= 1000;
             watt = outputVoltage * outputCurrent;
 
+            //Calculating Current pull from source
             sourceCurrent = watt / sourceVoltage;
             sourceCurrent *= 1000;
 
+            //Display
             LBLCCWattage.Text = watt.ToString("0.##") + "w";
             LBLCCSourceCurrent.Text = sourceCurrent.ToString("0.##") + "mA";
            
 
+
+        }
+
+        private void CBPC_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (CBPC.SelectedIndex == 0)
+            {
+                LBLPCValueOne.Text = "Voltage ( V )";
+                LBLPCValueTwo.Text = "Current ( I )";
+                LBLPCValueThree.Text = "Power ( W )";
+                LBLPCMathSign.Text = "*";
+
+            }
+            if (CBPC.SelectedIndex == 1)
+            {
+                LBLPCValueOne.Text = "Power ( W )";
+                LBLPCValueTwo.Text = "Current ( I )";
+                LBLPCValueThree.Text = "Voltage ( V )";
+                LBLPCMathSign.Text = "/";
+            }
+            if (CBPC.SelectedIndex == 2)
+            {
+                LBLPCValueOne.Text = "Power ( W )";
+                LBLPCValueTwo.Text = "Voltage ( V )";
+                LBLPCValueThree.Text = "Current ( I )";
+                LBLPCMathSign.Text = "/";
+            }
+        }
+
+        private void BTNPCSubmit_Click(object sender, EventArgs e)
+        {
+            int SelectedI = CBPC.SelectedIndex;
+            double vOne = 0;
+            double vTwo = 0;
+            double vThree = 0;
+            vOne = double.Parse(NUDPCEntryOne.Value.ToString());
+            vTwo = double.Parse(NUDPCEntryTwo.Value.ToString());
+            if(SelectedI == 0)
+            {
+                vThree = vOne * vTwo;
+            }
+            if (SelectedI == 1)
+            {
+                vThree = vOne / vTwo;
+            }
+            if (SelectedI == 2)
+            {
+                vThree = vOne / vTwo;
+            }
+            LBLPCOutput.Text = vThree.ToString("0.##");
+        }
+
+        private void numericUpDown1_ValueChanged(object sender, EventArgs e)
+        {
+            double singleMaxCharged = 4.2;
+            double singleNominal = 3.7;
+            double singleDischarged = 2.5;
+            double singleMaxLife = 3;
+
+            double maxCharged = 0;
+            double nominal = 0;
+            double discharged = 0;
+            double maxLife = 0;
+
+            double numberCells = double.Parse(NUDBVNumberCells.Value.ToString());
+
+            LBLBVCharged.Text = "Charged: " + (numberCells * singleMaxCharged).ToString() + "v";
+            LBLBVNominal.Text = "Nominal: " + (numberCells * singleNominal).ToString() + "v";
+            LBLBVDischarged.Text = "Discharged: " + (numberCells * singleDischarged).ToString() + "v";
+            LBLBVMaxLife.Text = "Max Life Discharged: " + (numberCells * singleMaxLife).ToString() + "v";
         }
     }
 }

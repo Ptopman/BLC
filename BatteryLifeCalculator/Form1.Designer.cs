@@ -78,6 +78,25 @@
             this.NUDCCOutputVoltage = new System.Windows.Forms.NumericUpDown();
             this.NUDCCOutputCurrent = new System.Windows.Forms.NumericUpDown();
             this.NUDCCSourceVoltage = new System.Windows.Forms.NumericUpDown();
+            this.GBPC = new System.Windows.Forms.GroupBox();
+            this.LBLPCValueTwo = new System.Windows.Forms.Label();
+            this.LBLPCValueOne = new System.Windows.Forms.Label();
+            this.LBLPCValueThree = new System.Windows.Forms.Label();
+            this.LBLPCOutput = new System.Windows.Forms.Label();
+            this.CBPC = new System.Windows.Forms.ComboBox();
+            this.LBLPCEqual = new System.Windows.Forms.Label();
+            this.LBLPCMathSign = new System.Windows.Forms.Label();
+            this.NUDPCEntryTwo = new System.Windows.Forms.NumericUpDown();
+            this.NUDPCEntryOne = new System.Windows.Forms.NumericUpDown();
+            this.BTNPCSubmit = new System.Windows.Forms.Button();
+            this.GBBatteryVoltage = new System.Windows.Forms.GroupBox();
+            this.label10 = new System.Windows.Forms.Label();
+            this.NUDBVNumberCells = new System.Windows.Forms.NumericUpDown();
+            this.label1 = new System.Windows.Forms.Label();
+            this.LBLBVCharged = new System.Windows.Forms.Label();
+            this.LBLBVNominal = new System.Windows.Forms.Label();
+            this.LBLBVDischarged = new System.Windows.Forms.Label();
+            this.LBLBVMaxLife = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.NUDBatteryCap)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.NUDCurrent)).BeginInit();
             this.GBInputSide.SuspendLayout();
@@ -94,6 +113,11 @@
             ((System.ComponentModel.ISupportInitialize)(this.NUDCCOutputVoltage)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.NUDCCOutputCurrent)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.NUDCCSourceVoltage)).BeginInit();
+            this.GBPC.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.NUDPCEntryTwo)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.NUDPCEntryOne)).BeginInit();
+            this.GBBatteryVoltage.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.NUDBVNumberCells)).BeginInit();
             this.SuspendLayout();
             // 
             // BTNSubmit
@@ -110,7 +134,7 @@
             // 
             this.LBLYears.Location = new System.Drawing.Point(6, 22);
             this.LBLYears.Name = "LBLYears";
-            this.LBLYears.Size = new System.Drawing.Size(180, 23);
+            this.LBLYears.Size = new System.Drawing.Size(248, 23);
             this.LBLYears.TabIndex = 1;
             this.LBLYears.Text = "label1";
             this.LBLYears.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -119,7 +143,7 @@
             // 
             this.LBLMonths.Location = new System.Drawing.Point(6, 45);
             this.LBLMonths.Name = "LBLMonths";
-            this.LBLMonths.Size = new System.Drawing.Size(180, 23);
+            this.LBLMonths.Size = new System.Drawing.Size(248, 23);
             this.LBLMonths.TabIndex = 2;
             this.LBLMonths.Text = "label2";
             this.LBLMonths.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -128,7 +152,7 @@
             // 
             this.LBLDays.Location = new System.Drawing.Point(6, 68);
             this.LBLDays.Name = "LBLDays";
-            this.LBLDays.Size = new System.Drawing.Size(180, 23);
+            this.LBLDays.Size = new System.Drawing.Size(248, 23);
             this.LBLDays.TabIndex = 3;
             this.LBLDays.Text = "label3";
             this.LBLDays.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -137,7 +161,7 @@
             // 
             this.LBLHours.Location = new System.Drawing.Point(6, 91);
             this.LBLHours.Name = "LBLHours";
-            this.LBLHours.Size = new System.Drawing.Size(180, 23);
+            this.LBLHours.Size = new System.Drawing.Size(248, 23);
             this.LBLHours.TabIndex = 4;
             this.LBLHours.Text = "label4";
             this.LBLHours.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -146,7 +170,7 @@
             // 
             this.LBLMinutes.Location = new System.Drawing.Point(6, 114);
             this.LBLMinutes.Name = "LBLMinutes";
-            this.LBLMinutes.Size = new System.Drawing.Size(180, 23);
+            this.LBLMinutes.Size = new System.Drawing.Size(248, 23);
             this.LBLMinutes.TabIndex = 5;
             this.LBLMinutes.Text = "label5";
             this.LBLMinutes.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -155,7 +179,7 @@
             // 
             this.LBLSeconds.Location = new System.Drawing.Point(6, 137);
             this.LBLSeconds.Name = "LBLSeconds";
-            this.LBLSeconds.Size = new System.Drawing.Size(180, 23);
+            this.LBLSeconds.Size = new System.Drawing.Size(248, 23);
             this.LBLSeconds.TabIndex = 6;
             this.LBLSeconds.Text = "label6";
             this.LBLSeconds.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -163,7 +187,7 @@
             // NUDBatteryCap
             // 
             this.NUDBatteryCap.DecimalPlaces = 3;
-            this.NUDBatteryCap.Location = new System.Drawing.Point(9, 22);
+            this.NUDBatteryCap.Location = new System.Drawing.Point(50, 29);
             this.NUDBatteryCap.Maximum = new decimal(new int[] {
             1000000,
             0,
@@ -187,7 +211,7 @@
             // NUDCurrent
             // 
             this.NUDCurrent.DecimalPlaces = 3;
-            this.NUDCurrent.Location = new System.Drawing.Point(9, 62);
+            this.NUDCurrent.Location = new System.Drawing.Point(50, 69);
             this.NUDCurrent.Maximum = new decimal(new int[] {
             1000000,
             0,
@@ -218,14 +242,14 @@
             this.GBInputSide.Controls.Add(this.NUDCurrent);
             this.GBInputSide.Location = new System.Drawing.Point(6, 32);
             this.GBInputSide.Name = "GBInputSide";
-            this.GBInputSide.Size = new System.Drawing.Size(265, 184);
+            this.GBInputSide.Size = new System.Drawing.Size(348, 184);
             this.GBInputSide.TabIndex = 9;
             this.GBInputSide.TabStop = false;
             this.GBInputSide.Text = "Input";
             // 
             // LBLUserCheckCurrent
             // 
-            this.LBLUserCheckCurrent.Location = new System.Drawing.Point(6, 141);
+            this.LBLUserCheckCurrent.Location = new System.Drawing.Point(47, 148);
             this.LBLUserCheckCurrent.Name = "LBLUserCheckCurrent";
             this.LBLUserCheckCurrent.Size = new System.Drawing.Size(253, 23);
             this.LBLUserCheckCurrent.TabIndex = 12;
@@ -234,7 +258,7 @@
             // 
             // LBLUserCheckCap
             // 
-            this.LBLUserCheckCap.Location = new System.Drawing.Point(6, 109);
+            this.LBLUserCheckCap.Location = new System.Drawing.Point(47, 116);
             this.LBLUserCheckCap.Name = "LBLUserCheckCap";
             this.LBLUserCheckCap.Size = new System.Drawing.Size(253, 23);
             this.LBLUserCheckCap.TabIndex = 11;
@@ -248,7 +272,7 @@
             "Amps",
             "Milliamps",
             "Microamps"});
-            this.CBCUnit.Location = new System.Drawing.Point(139, 61);
+            this.CBCUnit.Location = new System.Drawing.Point(180, 68);
             this.CBCUnit.Name = "CBCUnit";
             this.CBCUnit.Size = new System.Drawing.Size(120, 21);
             this.CBCUnit.TabIndex = 10;
@@ -260,7 +284,7 @@
             "Ampere hour",
             "Milliampere hour",
             "Microampere hour"});
-            this.CBBCUnit.Location = new System.Drawing.Point(139, 21);
+            this.CBBCUnit.Location = new System.Drawing.Point(180, 28);
             this.CBBCUnit.Name = "CBBCUnit";
             this.CBBCUnit.Size = new System.Drawing.Size(120, 21);
             this.CBBCUnit.TabIndex = 9;
@@ -273,9 +297,9 @@
             this.GBOutputSide.Controls.Add(this.LBLDays);
             this.GBOutputSide.Controls.Add(this.LBLMinutes);
             this.GBOutputSide.Controls.Add(this.LBLHours);
-            this.GBOutputSide.Location = new System.Drawing.Point(277, 32);
+            this.GBOutputSide.Location = new System.Drawing.Point(360, 32);
             this.GBOutputSide.Name = "GBOutputSide";
-            this.GBOutputSide.Size = new System.Drawing.Size(192, 184);
+            this.GBOutputSide.Size = new System.Drawing.Size(260, 184);
             this.GBOutputSide.TabIndex = 10;
             this.GBOutputSide.TabStop = false;
             this.GBOutputSide.Text = "Output";
@@ -292,7 +316,7 @@
             this.GBOhmsLaw.Controls.Add(this.LBLOLMathSign);
             this.GBOhmsLaw.Controls.Add(this.CBChangeLaw);
             this.GBOhmsLaw.Controls.Add(this.label2);
-            this.GBOhmsLaw.Location = new System.Drawing.Point(66, 270);
+            this.GBOhmsLaw.Location = new System.Drawing.Point(12, 270);
             this.GBOhmsLaw.Name = "GBOhmsLaw";
             this.GBOhmsLaw.Size = new System.Drawing.Size(369, 147);
             this.GBOhmsLaw.TabIndex = 11;
@@ -432,7 +456,7 @@
             this.GBLEDRC.Controls.Add(this.NUDRFC);
             this.GBLEDRC.Controls.Add(this.NUDRFV);
             this.GBLEDRC.Controls.Add(this.NUDRSV);
-            this.GBLEDRC.Location = new System.Drawing.Point(66, 423);
+            this.GBLEDRC.Location = new System.Drawing.Point(12, 423);
             this.GBLEDRC.Name = "GBLEDRC";
             this.GBLEDRC.Size = new System.Drawing.Size(369, 167);
             this.GBLEDRC.TabIndex = 12;
@@ -546,7 +570,7 @@
             this.GBBLC.Controls.Add(this.BTNSubmit);
             this.GBBLC.Location = new System.Drawing.Point(12, 12);
             this.GBBLC.Name = "GBBLC";
-            this.GBBLC.Size = new System.Drawing.Size(477, 252);
+            this.GBBLC.Size = new System.Drawing.Size(628, 252);
             this.GBBLC.TabIndex = 13;
             this.GBBLC.TabStop = false;
             this.GBBLC.Text = "Battery Life Calculator";
@@ -565,7 +589,7 @@
             this.GB.Controls.Add(this.NUDCCOutputVoltage);
             this.GB.Controls.Add(this.NUDCCOutputCurrent);
             this.GB.Controls.Add(this.NUDCCSourceVoltage);
-            this.GB.Location = new System.Drawing.Point(66, 596);
+            this.GB.Location = new System.Drawing.Point(12, 596);
             this.GB.Name = "GB";
             this.GB.Size = new System.Drawing.Size(369, 172);
             this.GB.TabIndex = 14;
@@ -723,11 +747,244 @@
             0,
             0});
             // 
+            // GBPC
+            // 
+            this.GBPC.Controls.Add(this.LBLPCValueTwo);
+            this.GBPC.Controls.Add(this.LBLPCValueOne);
+            this.GBPC.Controls.Add(this.LBLPCValueThree);
+            this.GBPC.Controls.Add(this.LBLPCOutput);
+            this.GBPC.Controls.Add(this.CBPC);
+            this.GBPC.Controls.Add(this.LBLPCEqual);
+            this.GBPC.Controls.Add(this.LBLPCMathSign);
+            this.GBPC.Controls.Add(this.NUDPCEntryTwo);
+            this.GBPC.Controls.Add(this.NUDPCEntryOne);
+            this.GBPC.Controls.Add(this.BTNPCSubmit);
+            this.GBPC.Location = new System.Drawing.Point(387, 270);
+            this.GBPC.Name = "GBPC";
+            this.GBPC.Size = new System.Drawing.Size(253, 205);
+            this.GBPC.TabIndex = 15;
+            this.GBPC.TabStop = false;
+            this.GBPC.Text = "Power Calculator";
+            // 
+            // LBLPCValueTwo
+            // 
+            this.LBLPCValueTwo.Location = new System.Drawing.Point(157, 50);
+            this.LBLPCValueTwo.Name = "LBLPCValueTwo";
+            this.LBLPCValueTwo.Size = new System.Drawing.Size(90, 20);
+            this.LBLPCValueTwo.TabIndex = 25;
+            this.LBLPCValueTwo.Text = "label1";
+            this.LBLPCValueTwo.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // LBLPCValueOne
+            // 
+            this.LBLPCValueOne.Location = new System.Drawing.Point(6, 50);
+            this.LBLPCValueOne.Name = "LBLPCValueOne";
+            this.LBLPCValueOne.Size = new System.Drawing.Size(90, 20);
+            this.LBLPCValueOne.TabIndex = 24;
+            this.LBLPCValueOne.Text = "label1";
+            this.LBLPCValueOne.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // LBLPCValueThree
+            // 
+            this.LBLPCValueThree.Location = new System.Drawing.Point(6, 127);
+            this.LBLPCValueThree.Name = "LBLPCValueThree";
+            this.LBLPCValueThree.Size = new System.Drawing.Size(241, 20);
+            this.LBLPCValueThree.TabIndex = 23;
+            this.LBLPCValueThree.Text = "label10";
+            this.LBLPCValueThree.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // LBLPCOutput
+            // 
+            this.LBLPCOutput.Location = new System.Drawing.Point(6, 153);
+            this.LBLPCOutput.Name = "LBLPCOutput";
+            this.LBLPCOutput.Size = new System.Drawing.Size(241, 20);
+            this.LBLPCOutput.TabIndex = 22;
+            this.LBLPCOutput.Text = "NA";
+            this.LBLPCOutput.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // CBPC
+            // 
+            this.CBPC.FormattingEnabled = true;
+            this.CBPC.Items.AddRange(new object[] {
+            "V * I = P",
+            "P / I = V",
+            "P / V = I"});
+            this.CBPC.Location = new System.Drawing.Point(6, 19);
+            this.CBPC.Name = "CBPC";
+            this.CBPC.Size = new System.Drawing.Size(127, 21);
+            this.CBPC.TabIndex = 21;
+            this.CBPC.SelectedIndexChanged += new System.EventHandler(this.CBPC_SelectedIndexChanged);
+            // 
+            // LBLPCEqual
+            // 
+            this.LBLPCEqual.Location = new System.Drawing.Point(102, 102);
+            this.LBLPCEqual.Name = "LBLPCEqual";
+            this.LBLPCEqual.Size = new System.Drawing.Size(49, 20);
+            this.LBLPCEqual.TabIndex = 5;
+            this.LBLPCEqual.Text = "=";
+            this.LBLPCEqual.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // LBLPCMathSign
+            // 
+            this.LBLPCMathSign.Location = new System.Drawing.Point(102, 73);
+            this.LBLPCMathSign.Name = "LBLPCMathSign";
+            this.LBLPCMathSign.Size = new System.Drawing.Size(49, 20);
+            this.LBLPCMathSign.TabIndex = 4;
+            this.LBLPCMathSign.Text = "label1";
+            this.LBLPCMathSign.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // NUDPCEntryTwo
+            // 
+            this.NUDPCEntryTwo.DecimalPlaces = 2;
+            this.NUDPCEntryTwo.Location = new System.Drawing.Point(157, 73);
+            this.NUDPCEntryTwo.Maximum = new decimal(new int[] {
+            100000,
+            0,
+            0,
+            0});
+            this.NUDPCEntryTwo.Minimum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            131072});
+            this.NUDPCEntryTwo.Name = "NUDPCEntryTwo";
+            this.NUDPCEntryTwo.Size = new System.Drawing.Size(90, 20);
+            this.NUDPCEntryTwo.TabIndex = 3;
+            this.NUDPCEntryTwo.Value = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            // 
+            // NUDPCEntryOne
+            // 
+            this.NUDPCEntryOne.DecimalPlaces = 2;
+            this.NUDPCEntryOne.Location = new System.Drawing.Point(6, 73);
+            this.NUDPCEntryOne.Maximum = new decimal(new int[] {
+            100000,
+            0,
+            0,
+            0});
+            this.NUDPCEntryOne.Minimum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            131072});
+            this.NUDPCEntryOne.Name = "NUDPCEntryOne";
+            this.NUDPCEntryOne.Size = new System.Drawing.Size(90, 20);
+            this.NUDPCEntryOne.TabIndex = 1;
+            this.NUDPCEntryOne.Value = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            // 
+            // BTNPCSubmit
+            // 
+            this.BTNPCSubmit.Location = new System.Drawing.Point(88, 176);
+            this.BTNPCSubmit.Name = "BTNPCSubmit";
+            this.BTNPCSubmit.Size = new System.Drawing.Size(75, 23);
+            this.BTNPCSubmit.TabIndex = 0;
+            this.BTNPCSubmit.Text = "Submit";
+            this.BTNPCSubmit.UseVisualStyleBackColor = true;
+            this.BTNPCSubmit.Click += new System.EventHandler(this.BTNPCSubmit_Click);
+            // 
+            // GBBatteryVoltage
+            // 
+            this.GBBatteryVoltage.Controls.Add(this.LBLBVMaxLife);
+            this.GBBatteryVoltage.Controls.Add(this.LBLBVDischarged);
+            this.GBBatteryVoltage.Controls.Add(this.LBLBVNominal);
+            this.GBBatteryVoltage.Controls.Add(this.LBLBVCharged);
+            this.GBBatteryVoltage.Controls.Add(this.label1);
+            this.GBBatteryVoltage.Controls.Add(this.NUDBVNumberCells);
+            this.GBBatteryVoltage.Controls.Add(this.label10);
+            this.GBBatteryVoltage.Location = new System.Drawing.Point(387, 481);
+            this.GBBatteryVoltage.Name = "GBBatteryVoltage";
+            this.GBBatteryVoltage.Size = new System.Drawing.Size(253, 287);
+            this.GBBatteryVoltage.TabIndex = 16;
+            this.GBBatteryVoltage.TabStop = false;
+            this.GBBatteryVoltage.Text = "BatteryVoltage";
+            // 
+            // label10
+            // 
+            this.label10.Location = new System.Drawing.Point(4, 16);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(241, 105);
+            this.label10.TabIndex = 1;
+            this.label10.Text = "18650 Voltages\r\n\r\nCharged: 4.2v\r\nNominal: 3.7v\r\nDischarged: 2.5v\r\n\r\nMax LifeSpan:" +
+    " 4.1v - 3v";
+            this.label10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // NUDBVNumberCells
+            // 
+            this.NUDBVNumberCells.Location = new System.Drawing.Point(148, 165);
+            this.NUDBVNumberCells.Minimum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            this.NUDBVNumberCells.Name = "NUDBVNumberCells";
+            this.NUDBVNumberCells.Size = new System.Drawing.Size(37, 20);
+            this.NUDBVNumberCells.TabIndex = 17;
+            this.NUDBVNumberCells.Value = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            this.NUDBVNumberCells.ValueChanged += new System.EventHandler(this.numericUpDown1_ValueChanged);
+            // 
+            // label1
+            // 
+            this.label1.Location = new System.Drawing.Point(54, 165);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(88, 20);
+            this.label1.TabIndex = 18;
+            this.label1.Text = "Number of Cells:";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // LBLBVCharged
+            // 
+            this.LBLBVCharged.Location = new System.Drawing.Point(6, 188);
+            this.LBLBVCharged.Name = "LBLBVCharged";
+            this.LBLBVCharged.Size = new System.Drawing.Size(241, 20);
+            this.LBLBVCharged.TabIndex = 19;
+            this.LBLBVCharged.Text = "Charged: 4.2v";
+            this.LBLBVCharged.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // LBLBVNominal
+            // 
+            this.LBLBVNominal.Location = new System.Drawing.Point(6, 208);
+            this.LBLBVNominal.Name = "LBLBVNominal";
+            this.LBLBVNominal.Size = new System.Drawing.Size(241, 20);
+            this.LBLBVNominal.TabIndex = 20;
+            this.LBLBVNominal.Text = "Nominal: 3.7v";
+            this.LBLBVNominal.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // LBLBVDischarged
+            // 
+            this.LBLBVDischarged.Location = new System.Drawing.Point(6, 228);
+            this.LBLBVDischarged.Name = "LBLBVDischarged";
+            this.LBLBVDischarged.Size = new System.Drawing.Size(241, 20);
+            this.LBLBVDischarged.TabIndex = 21;
+            this.LBLBVDischarged.Text = "Discharged: 2.5v";
+            this.LBLBVDischarged.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // LBLBVMaxLife
+            // 
+            this.LBLBVMaxLife.Location = new System.Drawing.Point(6, 248);
+            this.LBLBVMaxLife.Name = "LBLBVMaxLife";
+            this.LBLBVMaxLife.Size = new System.Drawing.Size(241, 20);
+            this.LBLBVMaxLife.TabIndex = 22;
+            this.LBLBVMaxLife.Text = "Max Life Discharged: 3v";
+            this.LBLBVMaxLife.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(498, 783);
+            this.ClientSize = new System.Drawing.Size(654, 780);
+            this.Controls.Add(this.GBBatteryVoltage);
+            this.Controls.Add(this.GBPC);
             this.Controls.Add(this.GB);
             this.Controls.Add(this.GBBLC);
             this.Controls.Add(this.GBLEDRC);
@@ -752,6 +1009,11 @@
             ((System.ComponentModel.ISupportInitialize)(this.NUDCCOutputVoltage)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.NUDCCOutputCurrent)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.NUDCCSourceVoltage)).EndInit();
+            this.GBPC.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.NUDPCEntryTwo)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.NUDPCEntryOne)).EndInit();
+            this.GBBatteryVoltage.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.NUDBVNumberCells)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -807,6 +1069,25 @@
         private System.Windows.Forms.NumericUpDown NUDCCOutputCurrent;
         private System.Windows.Forms.NumericUpDown NUDCCSourceVoltage;
         private System.Windows.Forms.Button BTNCCSubmit;
+        private System.Windows.Forms.GroupBox GBPC;
+        private System.Windows.Forms.Label LBLPCEqual;
+        private System.Windows.Forms.Label LBLPCMathSign;
+        private System.Windows.Forms.NumericUpDown NUDPCEntryTwo;
+        private System.Windows.Forms.NumericUpDown NUDPCEntryOne;
+        private System.Windows.Forms.Button BTNPCSubmit;
+        private System.Windows.Forms.ComboBox CBPC;
+        private System.Windows.Forms.Label LBLPCValueTwo;
+        private System.Windows.Forms.Label LBLPCValueOne;
+        private System.Windows.Forms.Label LBLPCValueThree;
+        private System.Windows.Forms.Label LBLPCOutput;
+        private System.Windows.Forms.GroupBox GBBatteryVoltage;
+        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.Label LBLBVMaxLife;
+        private System.Windows.Forms.Label LBLBVDischarged;
+        private System.Windows.Forms.Label LBLBVNominal;
+        private System.Windows.Forms.Label LBLBVCharged;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.NumericUpDown NUDBVNumberCells;
     }
 }
 
