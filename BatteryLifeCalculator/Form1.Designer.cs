@@ -90,13 +90,13 @@
             this.NUDPCEntryOne = new System.Windows.Forms.NumericUpDown();
             this.BTNPCSubmit = new System.Windows.Forms.Button();
             this.GBBatteryVoltage = new System.Windows.Forms.GroupBox();
-            this.label10 = new System.Windows.Forms.Label();
-            this.NUDBVNumberCells = new System.Windows.Forms.NumericUpDown();
-            this.label1 = new System.Windows.Forms.Label();
-            this.LBLBVCharged = new System.Windows.Forms.Label();
-            this.LBLBVNominal = new System.Windows.Forms.Label();
-            this.LBLBVDischarged = new System.Windows.Forms.Label();
             this.LBLBVMaxLife = new System.Windows.Forms.Label();
+            this.LBLBVDischarged = new System.Windows.Forms.Label();
+            this.LBLBVNominal = new System.Windows.Forms.Label();
+            this.LBLBVCharged = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.NUDBVNumberCells = new System.Windows.Forms.NumericUpDown();
+            this.label10 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.NUDBatteryCap)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.NUDCurrent)).BeginInit();
             this.GBInputSide.SuspendLayout();
@@ -362,7 +362,7 @@
             // 
             // NUDValueOne
             // 
-            this.NUDValueOne.DecimalPlaces = 2;
+            this.NUDValueOne.DecimalPlaces = 4;
             this.NUDValueOne.Location = new System.Drawing.Point(6, 75);
             this.NUDValueOne.Maximum = new decimal(new int[] {
             1000000,
@@ -394,7 +394,7 @@
             // 
             // NUDValueTwo
             // 
-            this.NUDValueTwo.DecimalPlaces = 2;
+            this.NUDValueTwo.DecimalPlaces = 4;
             this.NUDValueTwo.Location = new System.Drawing.Point(129, 75);
             this.NUDValueTwo.Maximum = new decimal(new int[] {
             1000000,
@@ -511,7 +511,7 @@
             // 
             // NUDRFC
             // 
-            this.NUDRFC.DecimalPlaces = 2;
+            this.NUDRFC.DecimalPlaces = 4;
             this.NUDRFC.Location = new System.Drawing.Point(263, 66);
             this.NUDRFC.Minimum = new decimal(new int[] {
             1,
@@ -529,7 +529,7 @@
             // 
             // NUDRFV
             // 
-            this.NUDRFV.DecimalPlaces = 2;
+            this.NUDRFV.DecimalPlaces = 4;
             this.NUDRFV.Location = new System.Drawing.Point(136, 66);
             this.NUDRFV.Minimum = new decimal(new int[] {
             1,
@@ -547,7 +547,7 @@
             // 
             // NUDRSV
             // 
-            this.NUDRSV.DecimalPlaces = 2;
+            this.NUDRSV.DecimalPlaces = 4;
             this.NUDRSV.Location = new System.Drawing.Point(13, 66);
             this.NUDRSV.Minimum = new decimal(new int[] {
             1,
@@ -680,7 +680,7 @@
             // 
             // NUDCCOutputVoltage
             // 
-            this.NUDCCOutputVoltage.DecimalPlaces = 2;
+            this.NUDCCOutputVoltage.DecimalPlaces = 4;
             this.NUDCCOutputVoltage.Location = new System.Drawing.Point(233, 52);
             this.NUDCCOutputVoltage.Maximum = new decimal(new int[] {
             1000000,
@@ -703,7 +703,7 @@
             // 
             // NUDCCOutputCurrent
             // 
-            this.NUDCCOutputCurrent.DecimalPlaces = 2;
+            this.NUDCCOutputCurrent.DecimalPlaces = 4;
             this.NUDCCOutputCurrent.Location = new System.Drawing.Point(233, 106);
             this.NUDCCOutputCurrent.Maximum = new decimal(new int[] {
             1000000,
@@ -726,7 +726,7 @@
             // 
             // NUDCCSourceVoltage
             // 
-            this.NUDCCSourceVoltage.DecimalPlaces = 2;
+            this.NUDCCSourceVoltage.DecimalPlaces = 4;
             this.NUDCCSourceVoltage.Location = new System.Drawing.Point(36, 52);
             this.NUDCCSourceVoltage.Maximum = new decimal(new int[] {
             1000000,
@@ -835,7 +835,7 @@
             // 
             // NUDPCEntryTwo
             // 
-            this.NUDPCEntryTwo.DecimalPlaces = 2;
+            this.NUDPCEntryTwo.DecimalPlaces = 4;
             this.NUDPCEntryTwo.Location = new System.Drawing.Point(157, 73);
             this.NUDPCEntryTwo.Maximum = new decimal(new int[] {
             100000,
@@ -858,7 +858,7 @@
             // 
             // NUDPCEntryOne
             // 
-            this.NUDPCEntryOne.DecimalPlaces = 2;
+            this.NUDPCEntryOne.DecimalPlaces = 4;
             this.NUDPCEntryOne.Location = new System.Drawing.Point(6, 73);
             this.NUDPCEntryOne.Maximum = new decimal(new int[] {
             100000,
@@ -905,15 +905,50 @@
             this.GBBatteryVoltage.TabStop = false;
             this.GBBatteryVoltage.Text = "BatteryVoltage";
             // 
-            // label10
+            // LBLBVMaxLife
             // 
-            this.label10.Location = new System.Drawing.Point(4, 16);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(241, 105);
-            this.label10.TabIndex = 1;
-            this.label10.Text = "18650 Voltages\r\n\r\nCharged: 4.2v\r\nNominal: 3.7v\r\nDischarged: 2.5v\r\n\r\nMax LifeSpan:" +
-    " 4.1v - 3v";
-            this.label10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.LBLBVMaxLife.Location = new System.Drawing.Point(6, 248);
+            this.LBLBVMaxLife.Name = "LBLBVMaxLife";
+            this.LBLBVMaxLife.Size = new System.Drawing.Size(241, 20);
+            this.LBLBVMaxLife.TabIndex = 22;
+            this.LBLBVMaxLife.Text = "Max Life Discharged: 3v";
+            this.LBLBVMaxLife.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // LBLBVDischarged
+            // 
+            this.LBLBVDischarged.Location = new System.Drawing.Point(6, 228);
+            this.LBLBVDischarged.Name = "LBLBVDischarged";
+            this.LBLBVDischarged.Size = new System.Drawing.Size(241, 20);
+            this.LBLBVDischarged.TabIndex = 21;
+            this.LBLBVDischarged.Text = "Discharged: 2.5v";
+            this.LBLBVDischarged.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // LBLBVNominal
+            // 
+            this.LBLBVNominal.Location = new System.Drawing.Point(6, 208);
+            this.LBLBVNominal.Name = "LBLBVNominal";
+            this.LBLBVNominal.Size = new System.Drawing.Size(241, 20);
+            this.LBLBVNominal.TabIndex = 20;
+            this.LBLBVNominal.Text = "Nominal: 3.7v";
+            this.LBLBVNominal.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // LBLBVCharged
+            // 
+            this.LBLBVCharged.Location = new System.Drawing.Point(6, 188);
+            this.LBLBVCharged.Name = "LBLBVCharged";
+            this.LBLBVCharged.Size = new System.Drawing.Size(241, 20);
+            this.LBLBVCharged.TabIndex = 19;
+            this.LBLBVCharged.Text = "Charged: 4.2v";
+            this.LBLBVCharged.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label1
+            // 
+            this.label1.Location = new System.Drawing.Point(54, 165);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(88, 20);
+            this.label1.TabIndex = 18;
+            this.label1.Text = "Number of Cells:";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // NUDBVNumberCells
             // 
@@ -933,50 +968,15 @@
             0});
             this.NUDBVNumberCells.ValueChanged += new System.EventHandler(this.numericUpDown1_ValueChanged);
             // 
-            // label1
+            // label10
             // 
-            this.label1.Location = new System.Drawing.Point(54, 165);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(88, 20);
-            this.label1.TabIndex = 18;
-            this.label1.Text = "Number of Cells:";
-            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // LBLBVCharged
-            // 
-            this.LBLBVCharged.Location = new System.Drawing.Point(6, 188);
-            this.LBLBVCharged.Name = "LBLBVCharged";
-            this.LBLBVCharged.Size = new System.Drawing.Size(241, 20);
-            this.LBLBVCharged.TabIndex = 19;
-            this.LBLBVCharged.Text = "Charged: 4.2v";
-            this.LBLBVCharged.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // LBLBVNominal
-            // 
-            this.LBLBVNominal.Location = new System.Drawing.Point(6, 208);
-            this.LBLBVNominal.Name = "LBLBVNominal";
-            this.LBLBVNominal.Size = new System.Drawing.Size(241, 20);
-            this.LBLBVNominal.TabIndex = 20;
-            this.LBLBVNominal.Text = "Nominal: 3.7v";
-            this.LBLBVNominal.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // LBLBVDischarged
-            // 
-            this.LBLBVDischarged.Location = new System.Drawing.Point(6, 228);
-            this.LBLBVDischarged.Name = "LBLBVDischarged";
-            this.LBLBVDischarged.Size = new System.Drawing.Size(241, 20);
-            this.LBLBVDischarged.TabIndex = 21;
-            this.LBLBVDischarged.Text = "Discharged: 2.5v";
-            this.LBLBVDischarged.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // LBLBVMaxLife
-            // 
-            this.LBLBVMaxLife.Location = new System.Drawing.Point(6, 248);
-            this.LBLBVMaxLife.Name = "LBLBVMaxLife";
-            this.LBLBVMaxLife.Size = new System.Drawing.Size(241, 20);
-            this.LBLBVMaxLife.TabIndex = 22;
-            this.LBLBVMaxLife.Text = "Max Life Discharged: 3v";
-            this.LBLBVMaxLife.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label10.Location = new System.Drawing.Point(4, 16);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(241, 105);
+            this.label10.TabIndex = 1;
+            this.label10.Text = "18650 Voltages\r\n\r\nCharged: 4.2v\r\nNominal: 3.7v\r\nDischarged: 2.5v\r\n\r\nMax LifeSpan:" +
+    " 4.1v - 3v";
+            this.label10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Form1
             // 

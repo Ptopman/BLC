@@ -38,3 +38,6 @@ Z:\BatteryLifeCalculator\BatteryLifeCalculator\obj\Release\BatteryLifeCalculator
 Z:\BatteryLifeCalculator\BatteryLifeCalculator\obj\Release\BatteryLifeCalculator.csproj.CoreCompileInputs.cache
 Z:\BatteryLifeCalculator\BatteryLifeCalculator\obj\Release\BatteryLifeCalculator.exe
 Z:\BatteryLifeCalculator\BatteryLifeCalculator\obj\Release\BatteryLifeCalculator.pdb
+Z:\Jameson\ShareDrive\SelfMadePrograms\BatteryLifeCalculator\BatteryLifeCalculator\obj\Release\BatteryLifeCalculator.csprojAssemblyReference.cache
+Z:\Jameson\ShareDrive\SelfMadePrograms\BatteryLifeCalculator\BatteryLifeCalculator\obj\Release\BatteryLifeCalculator.exe
+Z:\Jameson\ShareDrive\SelfMadePrograms\BatteryLifeCalculator\BatteryLifeCalculator\obj\Release\BatteryLifeCalculator.pdb
