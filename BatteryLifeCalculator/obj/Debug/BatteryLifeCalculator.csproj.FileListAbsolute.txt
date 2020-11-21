@@ -7,3 +7,13 @@ C:\Users\Quantum\Documents\BatteryLifeCalculator\BatteryLifeCalculator\obj\Debug
 C:\Users\Quantum\Documents\BatteryLifeCalculator\BatteryLifeCalculator\obj\Debug\BatteryLifeCalculator.csproj.GenerateResource.Cache
 C:\Users\Quantum\Documents\BatteryLifeCalculator\BatteryLifeCalculator\obj\Debug\BatteryLifeCalculator.exe
 C:\Users\Quantum\Documents\BatteryLifeCalculator\BatteryLifeCalculator\obj\Debug\BatteryLifeCalculator.pdb
+C:\Users\Quantum\Documents\GitRepo\BLC\BatteryLifeCalculator\bin\Debug\BatteryLifeCalculator.exe.config
+C:\Users\Quantum\Documents\GitRepo\BLC\BatteryLifeCalculator\bin\Debug\BatteryLifeCalculator.exe
+C:\Users\Quantum\Documents\GitRepo\BLC\BatteryLifeCalculator\bin\Debug\BatteryLifeCalculator.pdb
+C:\Users\Quantum\Documents\GitRepo\BLC\BatteryLifeCalculator\obj\Debug\BatteryLifeCalculator.csprojAssemblyReference.cache
+C:\Users\Quantum\Documents\GitRepo\BLC\BatteryLifeCalculator\obj\Debug\BatteryLifeCalculator.Form1.resources
+C:\Users\Quantum\Documents\GitRepo\BLC\BatteryLifeCalculator\obj\Debug\BatteryLifeCalculator.Properties.Resources.resources
+C:\Users\Quantum\Documents\GitRepo\BLC\BatteryLifeCalculator\obj\Debug\BatteryLifeCalculator.csproj.GenerateResource.cache
+C:\Users\Quantum\Documents\GitRepo\BLC\BatteryLifeCalculator\obj\Debug\BatteryLifeCalculator.csproj.CoreCompileInputs.cache
+C:\Users\Quantum\Documents\GitRepo\BLC\BatteryLifeCalculator\obj\Debug\BatteryLifeCalculator.exe
+C:\Users\Quantum\Documents\GitRepo\BLC\BatteryLifeCalculator\obj\Debug\BatteryLifeCalculator.pdb

@@ -41,3 +41,13 @@ Z:\BatteryLifeCalculator\BatteryLifeCalculator\obj\Release\BatteryLifeCalculator
 Z:\Jameson\ShareDrive\SelfMadePrograms\BatteryLifeCalculator\BatteryLifeCalculator\obj\Release\BatteryLifeCalculator.csprojAssemblyReference.cache
 Z:\Jameson\ShareDrive\SelfMadePrograms\BatteryLifeCalculator\BatteryLifeCalculator\obj\Release\BatteryLifeCalculator.exe
 Z:\Jameson\ShareDrive\SelfMadePrograms\BatteryLifeCalculator\BatteryLifeCalculator\obj\Release\BatteryLifeCalculator.pdb
+C:\Users\Quantum\Documents\GitRepo\BLC\BatteryLifeCalculator\bin\Release\BatteryLifeCalculator.exe.config
+C:\Users\Quantum\Documents\GitRepo\BLC\BatteryLifeCalculator\bin\Release\BatteryLifeCalculator.exe
+C:\Users\Quantum\Documents\GitRepo\BLC\BatteryLifeCalculator\bin\Release\BatteryLifeCalculator.pdb
+C:\Users\Quantum\Documents\GitRepo\BLC\BatteryLifeCalculator\obj\Release\BatteryLifeCalculator.csprojAssemblyReference.cache
+C:\Users\Quantum\Documents\GitRepo\BLC\BatteryLifeCalculator\obj\Release\BatteryLifeCalculator.Form1.resources
+C:\Users\Quantum\Documents\GitRepo\BLC\BatteryLifeCalculator\obj\Release\BatteryLifeCalculator.Properties.Resources.resources
+C:\Users\Quantum\Documents\GitRepo\BLC\BatteryLifeCalculator\obj\Release\BatteryLifeCalculator.csproj.GenerateResource.cache
+C:\Users\Quantum\Documents\GitRepo\BLC\BatteryLifeCalculator\obj\Release\BatteryLifeCalculator.csproj.CoreCompileInputs.cache
+C:\Users\Quantum\Documents\GitRepo\BLC\BatteryLifeCalculator\obj\Release\BatteryLifeCalculator.exe
+C:\Users\Quantum\Documents\GitRepo\BLC\BatteryLifeCalculator\obj\Release\BatteryLifeCalculator.pdb

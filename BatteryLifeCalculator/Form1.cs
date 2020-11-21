@@ -165,14 +165,11 @@ namespace BatteryLifeCalculator
         private void BTNRSubmit_Click(object sender, EventArgs e)
         {
             double ohms = 0;
-            double temp1, temp2, temp3, temp4;
-            temp1 = double.Parse(NUDRSV.Value.ToString());
-            temp2 = double.Parse(NUDRFV.Value.ToString());
-            temp3 = double.Parse(NUDRFC.Value.ToString());
-            temp4 = temp1 - temp2;
-            ohms = temp4 / temp3;
-            ohms *= 1000;
-
+            double SV, FV, FC;
+            SV = double.Parse(NUDRSV.Value.ToString());
+            FV = double.Parse(NUDRFV.Value.ToString());
+            FC = double.Parse(NUDRFC.Value.ToString());
+            ohms = (SV - FV) / FC;
             LBLROutput.Text = ohms.ToString() + " Ohms";
         }
 
@@ -273,6 +270,11 @@ namespace BatteryLifeCalculator
             LBLBVNominal.Text = "Nominal: " + (numberCells * singleNominal).ToString() + "v";
             LBLBVDischarged.Text = "Discharged: " + (numberCells * singleDischarged).ToString() + "v";
             LBLBVMaxLife.Text = "Max Life Discharged: " + (numberCells * singleMaxLife).ToString() + "v";
+        }
+
+        private void NUDRSV_ValueChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

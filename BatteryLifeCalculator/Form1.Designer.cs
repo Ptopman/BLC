@@ -373,7 +373,7 @@
             1,
             0,
             0,
-            65536});
+            262144});
             this.NUDValueOne.Name = "NUDValueOne";
             this.NUDValueOne.Size = new System.Drawing.Size(91, 20);
             this.NUDValueOne.TabIndex = 16;
@@ -405,7 +405,7 @@
             1,
             0,
             0,
-            65536});
+            262144});
             this.NUDValueTwo.Name = "NUDValueTwo";
             this.NUDValueTwo.Size = new System.Drawing.Size(91, 20);
             this.NUDValueTwo.TabIndex = 15;
@@ -484,29 +484,29 @@
             // 
             // label5
             // 
-            this.label5.Location = new System.Drawing.Point(263, 40);
+            this.label5.Location = new System.Drawing.Point(260, 40);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(91, 23);
+            this.label5.Size = new System.Drawing.Size(98, 23);
             this.label5.TabIndex = 5;
-            this.label5.Text = "Forword Current";
+            this.label5.Text = "Forword Current (A)";
             this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label4
             // 
-            this.label4.Location = new System.Drawing.Point(136, 40);
+            this.label4.Location = new System.Drawing.Point(126, 40);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(91, 23);
+            this.label4.Size = new System.Drawing.Size(111, 23);
             this.label4.TabIndex = 4;
-            this.label4.Text = "Forward Voltage";
+            this.label4.Text = "Forward Voltage (V)";
             this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label3
             // 
-            this.label3.Location = new System.Drawing.Point(13, 40);
+            this.label3.Location = new System.Drawing.Point(3, 40);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(91, 23);
+            this.label3.Size = new System.Drawing.Size(110, 23);
             this.label3.TabIndex = 3;
-            this.label3.Text = "Supply Voltage";
+            this.label3.Text = "Supply Voltage (V)";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // NUDRFC
@@ -517,7 +517,7 @@
             1,
             0,
             0,
-            65536});
+            262144});
             this.NUDRFC.Name = "NUDRFC";
             this.NUDRFC.Size = new System.Drawing.Size(91, 20);
             this.NUDRFC.TabIndex = 2;
@@ -535,7 +535,7 @@
             1,
             0,
             0,
-            65536});
+            262144});
             this.NUDRFV.Name = "NUDRFV";
             this.NUDRFV.Size = new System.Drawing.Size(91, 20);
             this.NUDRFV.TabIndex = 1;
@@ -553,7 +553,7 @@
             1,
             0,
             0,
-            65536});
+            262144});
             this.NUDRSV.Name = "NUDRSV";
             this.NUDRSV.Size = new System.Drawing.Size(91, 20);
             this.NUDRSV.TabIndex = 0;
@@ -562,6 +562,7 @@
             0,
             0,
             0});
+            this.NUDRSV.ValueChanged += new System.EventHandler(this.NUDRSV_ValueChanged);
             // 
             // GBBLC
             // 
@@ -691,7 +692,7 @@
             1,
             0,
             0,
-            65536});
+            262144});
             this.NUDCCOutputVoltage.Name = "NUDCCOutputVoltage";
             this.NUDCCOutputVoltage.Size = new System.Drawing.Size(97, 20);
             this.NUDCCOutputVoltage.TabIndex = 2;
@@ -714,7 +715,7 @@
             1,
             0,
             0,
-            65536});
+            262144});
             this.NUDCCOutputCurrent.Name = "NUDCCOutputCurrent";
             this.NUDCCOutputCurrent.Size = new System.Drawing.Size(97, 20);
             this.NUDCCOutputCurrent.TabIndex = 1;
@@ -737,7 +738,7 @@
             1,
             0,
             0,
-            65536});
+            262144});
             this.NUDCCSourceVoltage.Name = "NUDCCSourceVoltage";
             this.NUDCCSourceVoltage.Size = new System.Drawing.Size(97, 20);
             this.NUDCCSourceVoltage.TabIndex = 0;
@@ -846,7 +847,7 @@
             1,
             0,
             0,
-            131072});
+            262144});
             this.NUDPCEntryTwo.Name = "NUDPCEntryTwo";
             this.NUDPCEntryTwo.Size = new System.Drawing.Size(90, 20);
             this.NUDPCEntryTwo.TabIndex = 3;
@@ -869,7 +870,7 @@
             1,
             0,
             0,
-            131072});
+            262144});
             this.NUDPCEntryOne.Name = "NUDPCEntryOne";
             this.NUDPCEntryOne.Size = new System.Drawing.Size(90, 20);
             this.NUDPCEntryOne.TabIndex = 1;
